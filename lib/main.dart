@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:thinklogic/homescreen.dart';
+import 'package:thinklogic/splashscreen.dart';
 import 'package:thinklogic/widgets/contanerwidget.dart';
 
 void main() {
@@ -12,12 +13,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       theme: ThemeData(
         fontFamily: 'Delius',
       ),
       home: Scaffold(
+        backgroundColor: Color(0xffF7F5F7),
         appBar: AppBar(
-          backgroundColor: Color(0xff7E6BC5),
+          backgroundColor: Color(0xff7E537C),
           title: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
